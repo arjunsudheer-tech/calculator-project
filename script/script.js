@@ -1,17 +1,13 @@
-let calculation = localStorage.getItem('calculation') || '';
-
-displayResult();
+let calculation = '';
 
 function updateCalculation(value) {
   calculation += value;
   displayResult();
-  localStorage.setItem('calculation',calculation);
 }
 
 function calculateResult() {
   calculation = eval(calculation);
   displayResult();
-  localStorage.setItem('calculation',calculation);
 }
 
 function displayResult() {
@@ -22,5 +18,4 @@ function displayResult() {
 function clearButton() {
   calculation = '';
   displayResult();
-  localStorage.setItem('calculation',calculation);
 }
