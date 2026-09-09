@@ -2,10 +2,14 @@
 
 A simple calculator built using **HTML, CSS, and JavaScript**. This project allows users to perform basic arithmetic operations through an interactive calculator interface.
 
+## 📸 Preview
+
+![Calculator Preview](./preview-1.png)
+![Calculator Preview](./preview-2.png)
+
 ## 🚀 Live Demo
 
 https://arjunsudheer-tech.github.io/calculator-project/
-
 
 
 ## ✨ Features
